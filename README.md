@@ -30,12 +30,17 @@ An interactive visualization of the Tomasulo Algorithm for dynamic scheduling an
 
 ## 💻 Getting Started
 
+This guide is written to be foolproof, even if you are completely new to web development!
+
 ### Prerequisites
-You need Node.js installed on your machine. However, if you are on Windows, a portable Node environment is included!
+You need **Node.js** installed on your machine. 
+- You can download it from [nodejs.org](https://nodejs.org/). 
+- *Note for Windows users:* A portable Node environment is also included in the repository if you don't want to install it globally.
 
 ### Installation & Running
 
-1. **Clone the repository**
+1. **Download the code**
+   Open your terminal (or Command Prompt) and run:
    ```bash
    git clone https://github.com/mahermqr/ArchSim.git
    cd ArchSim
@@ -43,17 +48,20 @@ You need Node.js installed on your machine. However, if you are on Windows, a po
 
 2. **Start the Simulator**
 
-   **Option A: The Standard Way (Requires Node.js)**
+   **Method A: The Standard Way (Recommended)**
+   In your terminal, run the following commands to install dependencies and start the server:
    ```bash
    npm install
    npm run dev
    ```
+   > **Windows Users Troubleshooting**: If you get a red error saying *"npm.ps1 cannot be loaded because running scripts is disabled on this system"*, this is a standard Windows security feature. You can easily fix it by opening a new **Command Prompt** (instead of PowerShell) and running `npm run dev` there, OR by opening PowerShell as Administrator and running: `Set-ExecutionPolicy RemoteSigned`.
 
-   **Option B: The Portable Way (Windows Only)**
-   Right-click the `run_archsim.ps1` file in the project folder and select **Run with PowerShell**. This will automatically use the bundled Node environment and start the server.
+   **Method B: The Portable Way (Windows Only)**
+   Right-click the `run_archsim.ps1` file in the project folder and select **Run with PowerShell**. This will automatically use the bundled Node environment.
 
 3. **Open the App**
-   Open your browser and navigate to: [http://localhost:5173](http://localhost:5173)
+   Once the server starts, it will give you a local URL in the terminal. Open your web browser and navigate to that link!
+   - It is usually: [http://localhost:5173](http://localhost:5173) or [http://localhost:3000](http://localhost:3000)
 
 ---
 
