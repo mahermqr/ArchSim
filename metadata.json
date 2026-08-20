@@ -1,0 +1,6 @@
+{
+  "name": "Tomasulo Simulator",
+  "description": "A modern, interactive visual simulator for the Tomasulo algorithm. Features a dark-mode dashboard, cycle-by-cycle inspection, and comprehensive state visualization for students and professionals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
