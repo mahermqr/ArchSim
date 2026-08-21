@@ -30,8 +30,6 @@ An interactive visualization of the Tomasulo Algorithm for dynamic scheduling an
 
 ## 💻 Getting Started
 
-This guide is written to be foolproof, even if you are completely new to web development!
-
 ### Prerequisites
 You need **Node.js** installed on your machine. 
 - You can download it from [nodejs.org](https://nodejs.org/). 
