@@ -76,7 +76,7 @@ You need **Node.js** installed on your machine.
 
 ---
 
-## 🏗️ Tech Stack
+## 🏗️ Tech Stack 
 
 - **Framework**: React 19
 - **Language**: TypeScript
