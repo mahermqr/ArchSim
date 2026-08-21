@@ -1,4 +1,4 @@
-$NodeVersion = "v20.11.1"
+$NodeVersion = "v22.14.0"
 $NodeZip = "node-$NodeVersion-win-x64.zip"
 $NodeUrl = "https://nodejs.org/dist/$NodeVersion/$NodeZip"
 $InstallDir = "node_portable"
