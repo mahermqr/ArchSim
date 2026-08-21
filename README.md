@@ -57,7 +57,7 @@ You need **Node.js** installed on your machine.
    > **Windows Users Troubleshooting**: If you get a red error saying *"npm.ps1 cannot be loaded because running scripts is disabled on this system"*, this is a standard Windows security feature. You can easily fix it by opening a new **Command Prompt** (instead of PowerShell) and running `npm run dev` there, OR by opening PowerShell as Administrator and running: `Set-ExecutionPolicy RemoteSigned`.
 
    **Method B: The Portable Way (Windows Only)**
-   Right-click the `run_archsim.ps1` file in the project folder and select **Run with PowerShell**. This will automatically use the bundled Node environment.
+   Double-click the `run_archsim.cmd` file in the project folder. This wrapper will safely bypass any PowerShell execution policy restrictions and automatically use the bundled Node environment to start the simulator. (Alternatively, you can right-click `run_archsim.ps1` and select **Run with PowerShell**, though this may fail if your execution policies are set to Restricted).
 
 3. **Open the App**
    Once the server starts, it will give you a local URL in the terminal. Open your web browser and navigate to that link!
